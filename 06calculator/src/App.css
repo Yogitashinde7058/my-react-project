@@ -1,0 +1,40 @@
+body {
+  background-color: azure;
+}
+
+h1 {
+  color: black;
+  margin-top:30px; 
+}  
+
+.calculator {
+  width:300px;
+  margin:30px auto;
+  padding:20px;
+  background-color: grey;
+  border-radius: 15px;
+}
+.calculator input {
+  width:100px;
+  box-sizing:border-box;
+  height: 60px;
+  margin-bottom:15px;
+  font-size:25px;
+  text-align:right;
+  padding:10px;
+}
+.buttons {
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:10px;
+}
+.buttons button{
+  height: 55px;
+  font-size:20px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+}
+.buttons button:hover {
+  opacity:0.8;
+}

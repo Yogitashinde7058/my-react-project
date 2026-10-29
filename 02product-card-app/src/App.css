@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: Arial;
+}
+
+/* All Products */
+.product-list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+/* Product Card */
+.product-card {
+  width: 260px;
+  text-align: center;
+}
+
+/* Product Card Image */
+.product-card img {
+  width: 260px;
+  height: 200px;
+  object-fit: contain;
+  background-color: white;
+  border-radius: 10px;
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Product Name */
+.product-card h2 {
+  color: dark gray;
+  margin: 10px 0 5px;
+}
+
+/* Product Button */
+.product-card button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  background: blue;
+  color: white;
+  box-sizing: border-box;
+  border-radius: 10px;
+  }
